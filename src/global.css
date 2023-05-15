@@ -62,3 +62,21 @@ body {
   padding: 0;
   line-height: inherit;
 }
+.btn{
+  @apply font-bold py-2 px-4 mx-2 rounded;
+}
+.btn-purple{
+  @apply bg-purple-500 hover:bg-purple-700 text-white;
+}
+.btn-indigo{
+  @apply bg-indigo-500 hover:bg-indigo-700 text-white;
+}
+.btn-gray{
+  @apply bg-gray-500 hover:bg-gray-700 text-white;
+}
+.btn-red{
+  @apply bg-red-500 hover:bg-red-700 text-white;
+}
+button:diabled{
+  @apply opacity-50 cursor-not-allowed;
+}
